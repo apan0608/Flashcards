@@ -1,0 +1,39 @@
+
+.quiz-area {
+    background: url("images/world.png") no-repeat ;
+    background-size: contain;
+    margin: 20px auto;
+    width: 80%;
+
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.card {
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin: 5px;
+    width: 10vw;
+    height: 10vw;
+}
+
+.card p {
+    text-align: center;
+    color: orange;
+    font-family: Arial;
+    font-weight: bold;
+}
